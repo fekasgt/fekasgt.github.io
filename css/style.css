@@ -32,6 +32,11 @@ h6 {
     font-family: 'Raleway', sans-serif;
 }
 
+iframe img {
+    max-width: 100%;
+    height: auto;
+}
+
 p {
     margin: 0;
     color: #566773;
