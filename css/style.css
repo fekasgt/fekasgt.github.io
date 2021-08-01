@@ -295,6 +295,17 @@ ul.apps-lists li a span {
     min-height: 50em;
 }
 
+.main-banner2 {
+    background: url(../images/chart1_img.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 50em;
+}
+
 .layer {
     background: url(../images/dots.png);
     min-height: 50em;
