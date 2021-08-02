@@ -306,6 +306,17 @@ ul.apps-lists li a span {
     min-height: 50em;
 }
 
+.main-banner4 {
+    background: url(../images/chart3_img.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 50em;
+}
+
 .layer {
     background: url(../images/dots.png);
     min-height: 50em;
@@ -1404,6 +1415,7 @@ a.move-top span {
 @media(max-width:1366px) {
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 45em;
     }
@@ -1416,6 +1428,7 @@ a.move-top span {
 @media(max-width:1280px) {
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 40em;
     }
@@ -1424,6 +1437,7 @@ a.move-top span {
 @media(max-width:1080px) {
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 38em;
     }
@@ -1480,6 +1494,7 @@ a.move-top span {
     }
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 35em;
     }
@@ -1559,6 +1574,7 @@ a.move-top span {
     }
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 31em;
     }
@@ -1592,6 +1608,7 @@ a.move-top span {
     }
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 27em;
     }
@@ -1604,6 +1621,7 @@ a.move-top span {
 @media(max-width:600px) {
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 27em;
     }
@@ -1673,6 +1691,7 @@ a.move-top span {
     }
     .main-banner,
     .main-banner2,
+    .main-banner4,
     .layer {
         min-height: 21em;
     }
