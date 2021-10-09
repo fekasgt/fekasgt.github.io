@@ -561,6 +561,10 @@ pre code {
   margin-left: auto;
 }
 
+.instruments_container {
+  background: #111;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
