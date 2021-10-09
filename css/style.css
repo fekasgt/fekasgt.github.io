@@ -782,6 +782,151 @@ a.nice-link:hover:after {
     }
 }
 
+.instruments_container {
+    background: #111;
+  }
+
+/* instruments html page */
+
+
+.instrus {
+    position: relative;
+    padding : 10px 30px;
+    margin: 0 15px;
+    color: #3bcbf8;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.instrus:hover {
+    transition-delay: 0.5s;
+}
+
+.instrus:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    transition: 0.5s;
+}
+
+.instrus:hover:before {
+    width: 100%;
+    height: 100%;
+}
+
+.instrus:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    transition: 0.5s;
+}
+
+.instrus:hover:after {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* button colors */
+
+.blue {
+    color: #3bcbf8;
+}
+
+.blue:hover {
+    background: #3bcbf8;
+    color: #111;
+    box-shadow: 0 0 50px #3bcbf8;
+}
+
+.blue:before {
+    border-top: 2px solid #3bcbf8;
+    border-left: 2px solid #3bcbf8;
+}
+
+.blue:after {
+    border-bottom: 2px solid #3bcbf8;
+    border-right: 2px solid #3bcbf8;
+}
+
+
+
+.green {
+    color: #00e915;
+}
+
+.green:hover {
+    background: #00e915;
+    color: #111;
+    box-shadow: 0 0 50px #00e915;
+}
+
+.green:before {
+    border-top: 2px solid #00e915;
+    border-left: 2px solid #00e915;
+}
+
+.green:after {
+    border-bottom: 2px solid #00e915;
+    border-right: 2px solid #00e915;
+}
+
+
+
+.dark_blue {
+    color: #00293f;
+}
+
+.dark_blue:hover {
+    background: #00293f;
+    color: #111;
+    box-shadow: 0 0 50px #00293f;
+}
+
+.dark_blue:before {
+    border-top: 2px solid #00293f;
+    border-left: 2px solid #00293f;
+}
+
+.dark_blue:after {
+    border-bottom: 2px solid #00293f;
+    border-right: 2px solid #00293f;
+}
+
+
+
+.yellow {
+    color: #e9d600;
+}
+
+.yellow:hover {
+    background: #e9d600;
+    color: #111;
+    box-shadow: 0 0 50px #e9d600;
+}
+
+.yellow:before {
+    border-top: 2px solid #e9d600;
+    border-left: 2px solid #e9d600;
+}
+
+.yellow:after {
+    border-bottom: 2px solid #e9d600;
+    border-right: 2px solid #e9d600;
+}
+
+
 
 /*-- //slider --*/
 
@@ -790,8 +935,8 @@ a.nice-link:hover:after {
 h3.tittle,
 h3.tittle.two {
     font-size: 2em;
-    letter-spacing: 1px;
-    color: #212529;
+    letter-spacing: 2px;
+    color: #f3f3f3;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -799,6 +944,8 @@ h3.tittle.two {
 h3.tittle.two {
     color: #fff;
 }
+
+
 
 /*--//banner-bottom-w3ls--*/
 
