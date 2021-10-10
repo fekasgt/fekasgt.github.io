@@ -936,13 +936,21 @@ h3.tittle,
 h3.tittle.two {
     font-size: 2em;
     letter-spacing: 2px;
-    color: #f3f3f3;
+    color: #111;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 h3.tittle.two {
     color: #fff;
+}
+
+#tittle_instruments {
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #f3f3f3;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 
