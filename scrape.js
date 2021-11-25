@@ -2,7 +2,7 @@
 
 var xhr = new XMLHttpRequest();
 
-xhr.open("GET", "https://builtin.com/artificial-intelligence", true, null, null);
+xhr.open("GET", "https://cors-anywhere.herokuapp.com/https://builtin.com/artificial-intelligence", true, null, null);
 xhr.responseType = "document";
 
 xhr.onload = function() {
